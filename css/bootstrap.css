@@ -1,0 +1,108 @@
+.col{ /*Esta seccion edita el color de las columnas*/
+    color: #e3874f;
+    background-color: black;
+    border: #e3874f groove;
+    text-align: center;
+}
+
+.col img{
+   margin: auto;
+    height: 250px;
+}
+
+.halloween{ /*Le cambiamos el color a la pagina a negro*/
+    background-color: black;
+    background-size: cover;
+}
+
+.halloween h1,h3{
+    color: #e3874f;
+    text-align: center;
+}
+
+.col:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(233, 125, 1, 0.2)
+}
+
+.nav-link{
+    color: #e3874f;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+} 
+
+.card{
+    width: 510px;
+    height: 600px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #e3874f;
+    
+}
+
+.card p{ /*Este contenedor modifica el tamaño p de todas las cartas*/
+    padding-top: 20px;
+    font-size: 20px;
+    color:black;
+    background-color: #e3874f;
+}
+
+.card h3{
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+
+.container .card:hover{ 
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2)
+
+}
+
+.container-md .card img{
+    width: 330px;
+    height: 250px;
+} 
+
+.director{
+    text-align: center;
+    background-color: black;
+}
+
+.actor img{
+    height: 300px;
+    border: #e3874f solid;
+
+}
+
+.director h1{
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+.director h3{
+    font-size: x-large;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+
+}
+
+.director h2{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+}

@@ -1,0 +1,363 @@
+/*----------------------INICIO PAGINA INDEX ------------------------ */
+.titulo img{ /* Acomoda la imagen del titulo */
+   display: block;
+   margin: 0 auto;
+   width: 350px;
+   padding-top: 100px;
+
+}
+
+.titulo h2{
+    color: #e3874f;   
+    padding-bottom: 100px; 
+}
+
+
+.fondo{ /* Establece el color del fondo  */
+    background-image: url('/imagenes/cinema.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.tab{ /* Estilo para las ventanas */
+    overflow: hidden;
+    border: 1px solid black;
+    background-color: #f1f1f1;
+}
+
+.tab button{ /* Estilo para los botones que abren las ventanas */
+    background-color: inherit;
+    float: left;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tab button:hover{ /* Cambia el color al pasarle el mouse */
+    background-color: #ddd;
+
+}
+
+.tabcontent{
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.tabcontent{
+    background-color: black;
+}
+
+.tab{
+    background-color: #e3874f;
+}
+.popular{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.popular::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container{
+    background-color: black;
+}
+.card_index{ 
+   /*  display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; */
+    width: 13vw;
+}
+
+.card_index h4{
+    color: #e3874f;
+    text-align: center;
+}
+.card_index img{
+    width: 100%;
+    text-align: center;
+}
+.footer{ /* Esto establece el color del footer a un negro */
+    background-color: black;
+}
+
+.footer h3{ /* Establece el color del texto a un naranja */
+    color: #e3874f;
+}
+
+/* ------------------------------FIN PAGINA INDEX-------------------------- */
+.toppelis{ /* Esta seccion cambia el color del fondo*/
+    background-color: black;
+}
+.toppelis h1 { /* Cambia el diseño del texto ademas de cambiarle la fuente tambien */
+    color: #e3874f;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 75px;
+    text-align: center;
+}
+.toppelis h2{ /* Cambia el diseño del texto h2  */
+    text-align: center;
+    font-size: 40px;
+    color: #e3874f;
+}
+
+.toppelis p{
+    color: #e3874f;
+}
+
+
+.izq img{
+    width: 300px;
+    border-radius: 25px; /*Este comando hace cambia las esquinas de la imagen*/
+    box-shadow: 0 0 20px black; /*Este comando le crea una sombra a la imagen*/
+    margin-right: 30px;
+    float: left;  /* Establece la imagen hacia la izquierda */
+}
+
+.izq h2{ 
+    text-align: center; /* Este comando alinea el titulo */
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.izq p{
+    justify-content: center;
+    font-size: 25px;
+}
+
+.der img{
+    width: 300px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px black;
+    margin-left: 30px;
+    float: right;
+}
+
+.der h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.der p{
+    justify-content: center;
+    font-size: 25px;
+}
+
+.topdirec {
+    background-color: black;
+    width: 100%;
+    align-items: center;
+}
+
+.topdirec h3{
+    text-align: center;
+    color: #e3874f;
+}
+
+.topdirec__text h1{
+    color: #e3874f;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 75px;
+    text-align: center;
+    
+}
+
+.topdirec__text h2{
+    text-align: center;
+    font-size: 27px;
+    color: #e3874f;
+}
+
+.toppers{
+    background-color: black;
+}
+.toppers h1,h2,h3,p{
+    color: #e3874f;
+
+}
+
+.toppers__text h1,h3{
+    text-align: center;
+    font-size: 40px;
+}
+
+.toppers__text h3{
+    background-color: #e3874f;
+}
+
+.toppers__text h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    background-color: #e3874f;
+    color: black;
+
+}
+.peliculas img{
+    border: 5px solid #e3874f
+}
+
+.pel_pers{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.pel_pers img{
+    text-align: center;
+    width: 65%;
+}
+
+.pel_pers h1,p{
+    color: #e3874f;
+}
+
+.pel_pers h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+
+.pel_pers p{
+    font-size: 27px;
+}
+
+
+.topactor h1,h2,h3{ /* Cambia los textos de la pagina top actor */
+    text-align: center;
+    color: #e3874f;
+    background-color: black;
+}
+
+.director{
+    text-align: center;
+    background-color: black;
+}
+
+.director img{
+    height: 300px;
+    border: #e3874f solid;
+
+}
+
+.director h1{
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+.director h3{
+    font-size: x-large;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+
+}
+
+.director h2{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+}
+
+.linea{ 
+  border-top: 1px solid #e3874f;
+  height: 6px;
+  padding: 0;
+  margin: 20px auto 0 auto;
+  background-color: black;
+}
+
+
+.card-body {
+    background-color: black;
+}
+
+.card-body h5{
+    color: #e3874f;
+    text-align: center;
+}
+
+/* ########################## FOOTER ####################### */
+body{
+    margin:0;
+    overflow-x:hidden;
+}
+    
+.footer{
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+}
+    
+.footer .row_footer{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+}
+    
+.footer .row_footer a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+}
+    
+.footer .row_footer a:hover{
+    color:#fff;
+}
+    
+.footer .row_footer ul{
+    width:100%;
+}
+    
+.footer .row_footer ul li{
+    display:inline-block;
+    margin:0px 30px;
+}
+    
+.footer .row_footer a i{
+    font-size:2em;
+    margin:0% 1%;
+}
+    
+@media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+}
+.footer .row_footer ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+}
+.footer .row_footer a i{
+    margin:0% 3%;
+}
+}
+
+/* ####################### RESPONSIVE ###################### */
+@media screen and (max-width: 768px) {
+    .card_index {
+      width: 40%; 
+    }
+  }
+  
+  /* Estilos para pantallas pequeñas */
+  @media screen and (max-width: 670px) {
+    
+  }
+  
