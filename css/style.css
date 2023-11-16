@@ -14,7 +14,7 @@
 
 
 .fondo{ /* Establece el color del fondo  */
-    background-image: url('.../imagenes/cinema.jpg');
+    background-image: url('sprint-final/imagenes/cinema.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
